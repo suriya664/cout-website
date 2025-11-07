@@ -1,0 +1,99 @@
+/* Responsive overrides for Constructa template */
+
+/* Tablet (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 0 24px;
+  }
+
+  .navbar-inner {
+    gap: var(--spacing-md);
+  }
+
+  .card {
+    padding: 28px;
+  }
+
+  .projects-grid,
+  .blog-grid,
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-bar {
+    gap: var(--spacing-md);
+  }
+}
+
+/* Mobile (< 768px) */
+@media (max-width: 767px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .navbar-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: var(--spacing-sm);
+  }
+
+  .hero {
+    min-height: 520px;
+  }
+
+  .hero-content {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card-row {
+    flex-direction: column;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .projects-grid,
+  .blog-grid,
+  .team-grid,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-bar {
+    flex-direction: column;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+

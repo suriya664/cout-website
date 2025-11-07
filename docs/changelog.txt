@@ -1,0 +1,11 @@
+Constructa Template Changelog
+============================
+
+Version 1.0.0 - November 7, 2025
+--------------------------------
+- Initial release of Constructa multi-page construction company template
+- Implemented spacing, typography, and layout system per design guidelines
+- Added hero, services, projects, team, blog, and contact pages
+- Included client dashboard, login, careers, FAQ, and policy pages
+- Prepared modular CSS, JS utilities, and reusable HTML includes
+

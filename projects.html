@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Constructa | Projects</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <!--#include file="includes/preloader.html" -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo" aria-label="Constructa home">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046869.png" alt="Constructa logo" />
+        <span class="logo-text">Constructa</span>
+      </a>
+      <button type="button" class="nav-toggle" data-nav-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="primary-navigation" class="nav-links" data-nav-menu>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="team.html">Team</a>
+        <a href="careers.html">Careers</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-secondary">Login</a>
+        <a href="register.html" class="btn nav-cta">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1529429611273-7da1cba4eede?auto=format&amp;fit=crop&amp;w=1600&amp;q=80');">
+      <div class="hero-content">
+        <h1>Building Landmarks with Purpose</h1>
+        <p>Explore a selection of Constructa projects delivering resilient structures, adaptive spaces, and transformational experiences.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+          <a href="contact.html" class="btn btn-outline">Request Case Study</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Project Portfolio</h2>
+          <p>Curated highlights from our commercial, residential, civic, and industrial engagements across global markets.</p>
+        </div>
+        <div class="flex-center mb-lg">
+          <button class="btn btn-secondary" data-isotope-filter="*">All</button>
+          <button class="btn" data-isotope-filter=".commercial">Commercial</button>
+          <button class="btn" data-isotope-filter=".residential">Residential</button>
+          <button class="btn" data-isotope-filter=".infrastructure">Infrastructure</button>
+        </div>
+        <div class="projects-grid" data-isotope-grid>
+          
+          <article class="project-card infrastructure" data-isotope-item>
+            <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Transportation hub" />
+            <div class="project-card-content">
+              <h3>MetroLine Transit Hub</h3>
+              <p>Intermodal terminal integrating light rail, bus rapid transit, and retail galleria.</p>
+              <p class="text-muted">Location: Singapore</p>
+            </div>
+          </article>
+          <article class="project-card commercial" data-isotope-item>
+            <img src="https://images.pexels.com/photos/415720/pexels-photo-415720.jpeg" alt="Commercial tower exterior" />
+            <div class="project-card-content">
+              <h3>Summit Tower</h3>
+              <p>High-rise headquarters with hybrid work floors, wellness amenities, and smart automation.</p>
+              <p class="text-muted">Location: Seattle, USA</p>
+            </div>
+          </article>
+          <article class="project-card residential" data-isotope-item>
+            <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Residential development" />
+            <div class="project-card-content">
+              <h3>Lakeside Residences</h3>
+              <p>Eco-conscious community featuring passive solar design and community recreation hubs.</p>
+              <p class="text-muted">Location: Toronto, Canada</p>
+            </div>
+          </article>
+          <article class="project-card infrastructure" data-isotope-item>
+            <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Bridge infrastructure" />
+            <div class="project-card-content">
+              <h3>Riverlight Bridge</h3>
+              <p>Suspension bridge engineered to withstand extreme climate conditions and seismic activity.</p>
+              <p class="text-muted">Location: Oslo, Norway</p>
+            </div>
+          </article>
+          <article class="project-card commercial" data-isotope-item>
+            <img src="https://images.pexels.com/photos/16167720/pexels-photo-16167720.jpeg" alt="Commercial campus" />
+            <div class="project-card-content">
+              <h3>Innovation Gateway</h3>
+              <p>Multi-building campus supporting R&D labs, collaborative offices, and sustainable transport.</p>
+              <p class="text-muted">Location: Austin, USA</p>
+            </div>
+          </article>
+          <article class="project-card residential" data-isotope-item>
+            <img src="https://images.pexels.com/photos/5825715/pexels-photo-5825715.jpeg" alt="Residential interior design" />
+            <div class="project-card-content">
+              <h3>Urban Loft Revitalization</h3>
+              <p>Adaptive reuse of historic warehouses transformed into modern loft apartments.</p>
+              <p class="text-muted">Location: Berlin, Germany</p>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container">
+        <div class="section-title">
+          <h2>Project Delivery Highlights</h2>
+          <p>Key metrics from our portfolio that demonstrate dependable project controls and sustained client satisfaction.</p>
+        </div>
+        <div class="stats-bar">
+          <div class="stat-item">
+            <h3 data-counter="92+">0</h3>
+            <p>Projects Delivered On-Time</p>
+          </div>
+          <div class="stat-item">
+            <h3 data-counter="15+">0</h3>
+            <p>Regional Markets Served</p>
+          </div>
+          <div class="stat-item">
+            <h3 data-counter="100+">0</h3>
+            <p>Sustainability Score Avg</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <h2>Looking for a Project Partner?</h2>
+        <p>Connect with our team to receive detailed case studies and phased implementation playbooks.</p>
+        <a href="#" class="btn btn-secondary" data-modal-open="quote-modal">Share Your Vision</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-column">
+          <h3>Constructa</h3>
+          <p>We deliver high-quality construction and engineering solutions with precision, safety, and sustainable innovation.</p>
+          <a href="contact.html" class="btn btn-primary mt-sm">Request a Quote</a>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="projects.html">Project Portfolio</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="docs/documentation.html">Documentation</a></li>
+            <li><a href="docs/changelog.txt">Changelog</a></li>
+            <li><a href="docs/credits.txt">Credits</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>123 Skyline Avenue<br />Metropolis, NY 10118</p>
+          <p>+1 (800) 555-0123</p>
+          <p><a href="mailto:hello@constructa.com">hello@constructa.com</a></p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com" class="social-linkedin" aria-label="LinkedIn">
+              <img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="LinkedIn icon" />
+            </a>
+            <a href="https://www.instagram.com" class="social-instagram" aria-label="Instagram">
+              <img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Instagram icon" />
+            </a>
+            <a href="https://www.facebook.com" class="social-facebook" aria-label="Facebook">
+              <img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="Facebook icon" />
+            </a>
+            <a href="https://www.twitter.com" class="social-twitter" aria-label="Twitter">
+              <img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="Twitter icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Constructa. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <button class="btn btn-secondary" data-backtotop aria-label="Back to top">Top</button>
+
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,128 @@
+/* Custom utility styles for Constructa template */
+
+.bg-light {
+  background-color: var(--color-accent);
+}
+
+.bg-dark {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-muted {
+  color: #777777;
+}
+
+.bordered {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--color-primary);
+}
+
+.icon-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: rgba(255, 107, 53, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  font-size: 24px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+  justify-content: center;
+}
+
+.service-list .card {
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial {
+  padding: 32px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.12), rgba(0, 0, 0, 0.04));
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.testimonial .author {
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.timeline {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 48px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background-color: rgba(255, 107, 53, 0.3);
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
+@media (max-width: 1024px) {
+  .service-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .service-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+

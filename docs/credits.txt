@@ -1,0 +1,19 @@
+Constructa Template Credits
+===========================
+
+Design & Development
+- Constructa Template crafted by Constructa UI team
+
+Typography
+- Poppins Typeface by Indian Type Foundry and Google Fonts
+
+Suggested Imagery Keywords
+- Hero: "modern construction site aerial view", "skyscraper construction"
+- Services: "construction blueprint", "architect planning", "building renovation", "interior design"
+- Projects: "completed building exterior", "modern office building", "residential construction", "commercial building"
+- Team: "construction team meeting", "architect professional portrait", "engineer construction site"
+- About: "construction workers collaboration", "building progress"
+
+Libraries (Optional)
+- Bootstrap, AOS, Isotope, Owl Carousel placeholders available in `assets/vendors/`
+

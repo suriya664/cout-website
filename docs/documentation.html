@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Constructa Template Documentation</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/custom.css" />
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Constructa Template Documentation</h2>
+          <p>Version 1.0.0 &middot; Updated November 7, 2025</p>
+        </div>
+        <article class="card text-left">
+          <h3 class="text-left">Getting Started</h3>
+          <p class="text-left">1. Open any HTML file and replace placeholder copy or imagery in the `assets/images` directory.<br />2. Update navigation links in `includes/header.html` if you add additional pages.<br />3. Customize colors by adjusting CSS variables in `assets/css/style.css`.</p>
+
+          <h3 class="text-left">Structure Overview</h3>
+          <ul>
+            <li>`assets/css/` contains core, custom, and responsive styles.</li>
+            <li>`assets/js/` includes main interactivity, plugin initialization, and custom utilities.</li>
+            <li>`includes/` stores reusable snippets for header, footer, sidebar, preloader, and modals.</li>
+            <li>`docs/` holds documentation, changelog, and credits.</li>
+          </ul>
+
+          <h3 class="text-left">Customization Tips</h3>
+          <p class="text-justify">Maintain the defined spacing system to preserve design consistency. When adding new sections, apply `section-title`, `card`, and grid utility classes. Ensure hero sections maintain the minimum height and use centered headings.</p>
+
+          <h3 class="text-left">Responsive Behavior</h3>
+          <p class="text-left">Mobile-first media queries are defined in `assets/css/responsive.css`. Adjust breakpoints or layout overrides as necessary for custom content.</p>
+
+          <h3 class="text-left">Dependencies</h3>
+          <p class="text-left">Vendor folders are prepared for Bootstrap, AOS, Isotope, and Owl Carousel. Include necessary vendor scripts and styles in your build pipeline.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/js/plugins.js"></script>
+  <script src="../assets/js/custom.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
+
+

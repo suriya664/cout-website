@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Constructa | Client Login</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body class="bg-light">
+  <!--#include file="includes/preloader.html" -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo" aria-label="Constructa home">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046869.png" alt="Constructa logo" />
+        <span class="logo-text">Constructa</span>
+      </a>
+      <button type="button" class="nav-toggle" data-nav-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="primary-navigation" class="nav-links" data-nav-menu>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="team.html">Team</a>
+        <a href="careers.html">Careers</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-secondary">Login</a>
+        <a href="register.html" class="btn nav-cta">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h2>Client Portal Login</h2>
+          <p>Access real-time project dashboards, documentation, and collaboration tools.</p>
+        </div>
+        <div class="flex-center">
+          <article class="card" style="max-width: 420px; width: 100%;">
+            <form>
+              <label for="login-email">Email Address</label>
+              <input type="email" id="login-email" name="login-email" placeholder="you@company.com" />
+
+              <label for="login-password">Password</label>
+              <input type="password" id="login-password" name="login-password" placeholder="Enter password" />
+
+              <div class="flex-between">
+                <label class="text-left">
+                  <input type="checkbox" name="remember" /> Remember me
+                </label>
+                <a href="#" class="text-primary">Forgot password?</a>
+              </div>
+
+              <button type="submit" class="btn btn-primary mt-md">Sign In</button>
+              <p class="text-left mt-md">Need access? <a href="contact.html" class="text-primary">Contact our team</a>.</p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+
